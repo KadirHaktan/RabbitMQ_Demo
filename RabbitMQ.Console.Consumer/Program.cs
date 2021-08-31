@@ -46,7 +46,7 @@ namespace RabbitMQ.Consumer
         {
             var uri = new ConnectionFactory
             {
-                Uri = new Uri("amqp://guest:guest@localhost:5672")
+                Uri = new Uri("")
             };
 
             using (var connection = uri.CreateConnection())
